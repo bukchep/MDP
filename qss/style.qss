@@ -1,0 +1,115 @@
+QLabel {
+    font: 8.5pt;
+    color: #080941;
+}/*080941*/
+QMessageBox{
+border: 1px solid #8B9AB4;
+border-radius: 3px;
+	background-color: #f7f9fe;
+}
+QProgressDialog{
+background-color: #f7f9fe;
+}
+QComboBox {
+     color: #080941;
+     border: 1px solid gray;
+     border-radius: 4px;
+     border-color: #C4DBFF;
+     padding: 1px 1px 1px 3px;
+    
+ }
+/* min-width: 2em;*/
+QComboBox::down-arrow {
+    image: url(:/images/down.png);
+    width: 11px;
+    height: 6px;
+}
+QComboBox::down-arrow:on {
+    top: 1px;
+}
+
+QComboBox:!editable, QComboBox::drop-down:editable {
+      background: #C4DBFF;
+ }
+
+
+
+ /* QComboBox получает состояние "on" когда выпадающий список раскрыт */
+QComboBox:!editable:on, QComboBox::drop-down:editable:on {
+     background: #C4DBFF;
+ }
+ 
+
+ QComboBox:on { /* сдвиг текста когда выпадающий список раскрывается D1DCFA */E2EAFC
+     padding-top: 3px;
+     padding-left: 4px;
+ }
+
+ QComboBox::drop-down {
+     subcontrol-origin: padding;
+     subcontrol-position: top right;
+     width: 15px;
+
+     border-left-width: 0px;
+     border-left-color: darkgray;
+     border-left-style: solid; /* только одна линия */
+     border-top-right-radius: 4px; /* тот же радиус закругления что и у QComboBox b2c8ea*/
+     border-bottom-right-radius: 4px;
+ }
+QComboBox:!editable:hover {
+
+   border: 1px solid #8B9AB4;
+   background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                 stop: 0 #FBFDFF, stop: 0.1 #DFEDFF,
+				 stop: 0.1 #DFEDFF, stop: 0.9 #DFEDFF,
+				 stop: 0.9 #DFEDFF, stop: 1 #FBFDFF);
+}
+/*AAC7F2*/
+QToolBar{
+	background: #C4DBFF;
+}
+/*     C4DDFF C4DEFF C1DAF2 CADFF4   C3D9FF  CADBF4  ABCDEF D2E3F7 stop: 0 #f7f9fe, stop: 0.3 #f7f9fe,
+QToolBar{
+	background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                      
+				 stop: 0 #b2c8ea, stop: 1 #b2c8ea);*/
+ QProgressBar {
+     border: 1px solid grey;
+     border-radius: 4px;
+     align: center;
+ }
+
+ QProgressBar::chunk {
+     background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                 stop: 0 #FBFDFF, stop: 0.2 #C4DDFF,
+				 stop: 0.3 #C4DDFF, stop: 0.7 #C4DDFF,
+				 stop: 0.8 #C4DDFF, stop: 1 #FBFDFF);
+     width: 20px; 
+ }
+
+QToolButton { /* все типы инструментальных кнопок */
+     border: 1px solid #9FAFCA;
+     border-radius: 4px;
+     background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                       stop: 0 #FBFDFF, stop: 0.1 #C4DBFF,
+				       stop: 0.1 #C4DBFF, stop: 0.9 #C4DBFF,
+				       stop: 0.9 #C4DBFF, stop: 1 #FBFDFF);
+ }
+QToolButton:!editable:hover {
+
+   border: 1px solid #8B9AB4;
+   background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                 stop: 0 #FBFDFF, stop: 0.5 #DFEDFF,
+				 stop: 0.5 #DFEDFF, stop: 0.8 #BFDBFF,
+				 stop: 0.8 #BFDBFF, stop: 1 #AACEFF);
+}
+
+QListView {
+    color: #0C0E5F;
+    background-color: #f7f9fe;
+    selection-color: #080941;
+    selection-background-color:#b2c8ea;
+    border: 1px solid #9FAFCA;
+    border-radius: 4px;
+    padding: 0px 0px;
+}

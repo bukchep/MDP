@@ -1,0 +1,22 @@
+QLabel {
+    font: 8pt;
+    color: #080941;
+}
+
+QToolBar{
+	background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                 stop: 0 #b2c8ea, stop: 1 #b2c8ea);
+}
+
+QToolButton { /* все типы инструментальных кнопок */
+     border: 1px solid #b2c8ea;
+     border-radius: 3px;
+     background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                       stop: 0 #f7f9fe, stop: 1 #b2c8ea);
+ }
+QToolButton:!editable:hover {
+
+   background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                 stop: 0 #f7f9fe, stop: 0.4 #C7D5F8,
+                                 stop: 0.4 #f7f9fe, stop: 1 #6995D6);
+}

@@ -1,0 +1,32 @@
+
+
+QDialog{
+background-color: #F8FAFE;
+}
+
+QPushButton { /* все типы инструментальных кнопок */
+     border: 1px solid #C9DEF5;
+     border-radius: 4px;
+     background-color: #F8FAFE;
+ }
+
+QPushButton:!editable:hover {
+   border: 1px solid #8B9AB4;
+   border-radius: 4px;
+   background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                 stop: 0 #FBFDFF, stop: 0.1 #DBE9F9,
+				 stop: 0.1 #DBE9F9, stop: 0.9 #DBE9F9,
+				 stop: 0.9 #DBE9F9, stop: 1 #FBFDFF);
+}
+
+QToolButton { /* все типы инструментальных кнопок */
+     border: 1px solid #F8FAFE;
+     border-radius: 4px;
+     background-color: #F8FAFE;
+ }
+QToolButton:!editable:hover {
+
+   border: 1px solid #F8FAFE;
+   border-radius: 4px;
+   background: #F8FAFE;
+}

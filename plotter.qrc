@@ -1,0 +1,26 @@
+<RCC>
+    <qresource prefix="/" >
+        <file>in1.txt</file>
+        <file>images/zoom-in.png</file>
+        <file>images/zoom-out.png</file>
+        <file>images/fullGraph.png</file>
+        <file>images/next.png</file>
+        <file>images/previous.png</file>
+        <file>images/play.png</file>
+        <file>images/stop.png</file>
+        <file>images/save.png</file>
+        <file>images/ShowToolBar.png</file>
+        <file>images/HideToolBar.png</file>
+        <file>images/videoplayer.png</file>
+        <file>images/logo.jpeg</file>
+        <file>images/info.png</file>
+        <file>qss/style.qss</file>
+        <file>qss/stylemainbar.qss</file>
+        <file>images/backgroundDialog.png</file>
+        <file>qss/zoombuttton.qss</file>
+        <file>images/down.png</file>
+        <file>qss/info.qss</file>
+        <file>images/nexthover.png</file>
+        <file>images/previoushover.png</file>
+    </qresource>
+</RCC>
